@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="dbRestoModelStoreContainer" CdmEntityContainer="dbRestoEntities">
+    <EntitySetMapping Name="Menus">
+      <EntityTypeMapping TypeName="dbRestoModel.Menu">
+        <MappingFragment StoreEntitySet="tms_menu">
+          <ScalarProperty Name="ChangeDate" ColumnName="ChangeDate" />
+          <ScalarProperty Name="ChangeBy" ColumnName="ChangeBy" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="CreateBy" ColumnName="CreateBy" />
+          <ScalarProperty Name="Kode_menu" ColumnName="Kode_menu" />
+          <ScalarProperty Name="Nama_menu" ColumnName="Nama_menu" />
+          <ScalarProperty Name="Jenis" ColumnName="Jenis" />
+          <ScalarProperty Name="Harga" ColumnName="Harga" />
+          <ScalarProperty Name="Deskripsi" ColumnName="Deskripsi" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

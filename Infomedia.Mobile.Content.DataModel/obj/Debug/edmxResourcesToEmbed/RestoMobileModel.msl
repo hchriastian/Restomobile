@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="dbRestoMobileModelStoreContainer" CdmEntityContainer="dbRestoMobileEntities">
+    <EntitySetMapping Name="Jabatans">
+      <EntityTypeMapping TypeName="dbRestoMobileModel.Jabatan0">
+        <MappingFragment StoreEntitySet="gmJabatan">
+          <ScalarProperty Name="RecordStatus" ColumnName="RecordStatus" />
+          <ScalarProperty Name="IDJabatan" ColumnName="IDJabatan" />
+          <ScalarProperty Name="Jabatan" ColumnName="Jabatan" />
+          <ScalarProperty Name="ChangeNo" ColumnName="ChangeNo" />
+          <ScalarProperty Name="CreateBy" ColumnName="CreateBy" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="ChangeBy" ColumnName="ChangeBy" />
+          <ScalarProperty Name="ChangeDate" ColumnName="ChangeDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="KategoriMenus">
+      <EntityTypeMapping TypeName="dbRestoMobileModel.KategoriMenu">
+        <MappingFragment StoreEntitySet="gmKategoriMenu">
+          <ScalarProperty Name="RecordStatus" ColumnName="RecordStatus" />
+          <ScalarProperty Name="IDKategori" ColumnName="IDKategori" />
+          <ScalarProperty Name="NamaKategori" ColumnName="NamaKategori" />
+          <ScalarProperty Name="ChangeNo" ColumnName="ChangeNo" />
+          <ScalarProperty Name="CreateBy" ColumnName="CreateBy" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="ChangeBy" ColumnName="ChangeBy" />
+          <ScalarProperty Name="ChangeDate" ColumnName="ChangeDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Mejas">
+      <EntityTypeMapping TypeName="dbRestoMobileModel.Meja">
+        <MappingFragment StoreEntitySet="gmMeja">
+          <ScalarProperty Name="RecordStatus" ColumnName="RecordStatus" />
+          <ScalarProperty Name="IDMeja" ColumnName="IDMeja" />
+          <ScalarProperty Name="ChangeNo" ColumnName="ChangeNo" />
+          <ScalarProperty Name="CreateBy" ColumnName="CreateBy" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="ChangeBy" ColumnName="ChangeBy" />
+          <ScalarProperty Name="ChangeDate" ColumnName="ChangeDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Menus">
+      <EntityTypeMapping TypeName="dbRestoMobileModel.Menu">
+        <MappingFragment StoreEntitySet="tmMenu">
+          <ScalarProperty Name="RecordStatus" ColumnName="RecordStatus" />
+          <ScalarProperty Name="IDMenu" ColumnName="IDMenu" />
+          <ScalarProperty Name="IDKategori" ColumnName="IDKategori" />
+          <ScalarProperty Name="NamaMenu" ColumnName="NamaMenu" />
+          <ScalarProperty Name="Gambar" ColumnName="Gambar" />
+          <ScalarProperty Name="Harga" ColumnName="Harga" />
+          <ScalarProperty Name="Delivery" ColumnName="Delivery" />
+          <ScalarProperty Name="Deskripsi" ColumnName="Deskripsi" />
+          <ScalarProperty Name="ChangeNo" ColumnName="ChangeNo" />
+          <ScalarProperty Name="CreateBy" ColumnName="CreateBy" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="ChangeBy" ColumnName="ChangeBy" />
+          <ScalarProperty Name="ChangeDate" ColumnName="ChangeDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Staffs">
+      <EntityTypeMapping TypeName="dbRestoMobileModel.Staff">
+        <MappingFragment StoreEntitySet="tmStaff">
+          <ScalarProperty Name="RecordStatus" ColumnName="RecordStatus" />
+          <ScalarProperty Name="IDStaff" ColumnName="IDStaff" />
+          <ScalarProperty Name="NamaStaff" ColumnName="NamaStaff" />
+          <ScalarProperty Name="NewPassword" ColumnName="NewPassword" />
+          <ScalarProperty Name="OldPassword" ColumnName="OldPassword" />
+          <ScalarProperty Name="Jabatan" ColumnName="Jabatan" />
+          <ScalarProperty Name="ChangeNo" ColumnName="ChangeNo" />
+          <ScalarProperty Name="CreateBy" ColumnName="CreateBy" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="ChangeBy" ColumnName="ChangeBy" />
+          <ScalarProperty Name="ChangeDate" ColumnName="ChangeDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

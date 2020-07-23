@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2000
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UI", "UI", "{F4D8DEF6-596C-40BD-9AA5-72CFF241D4D6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "RestoMobileWPF", "RestoMobileWPF", "{E60EB618-1D96-479F-98D2-FEE8900779BF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RestoMobileWPF", "RestoMobileWPF\RestoMobileWPF.csproj", "{4FBA2023-8767-4151-B0A3-1E9F634AD352}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4FBA2023-8767-4151-B0A3-1E9F634AD352}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4FBA2023-8767-4151-B0A3-1E9F634AD352}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4FBA2023-8767-4151-B0A3-1E9F634AD352}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4FBA2023-8767-4151-B0A3-1E9F634AD352}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E60EB618-1D96-479F-98D2-FEE8900779BF} = {F4D8DEF6-596C-40BD-9AA5-72CFF241D4D6}
+		{4FBA2023-8767-4151-B0A3-1E9F634AD352} = {E60EB618-1D96-479F-98D2-FEE8900779BF}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B87125DE-14FC-4C7D-8978-403C882E860E}
+	EndGlobalSection
+EndGlobal
